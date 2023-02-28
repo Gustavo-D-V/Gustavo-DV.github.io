@@ -1,0 +1,182 @@
+
+  *{
+	box-sizing : border-box ;
+	font-family: 'Noto Serif', serif;
+	}
+
+
+
+  body 	{	
+		background-color : #F2F3F4 ;
+		padding-top : 145.78px;
+		margin : 0;
+		}
+h3 {text-decoration : underline;}
+
+	p 	{text-align : justify ;
+		padding-right: 5em;
+		}
+	  
+	/* Estilo del encabezado y barra de navegación: */ 
+
+ .top-home {	
+			position : fixed ;
+			width : 100%;
+			border : solid 5px  ; 
+			background-color : #CCD1D1  ;
+			margin-top : -145.78px ;
+			z-index : 5000 ;
+			}
+			
+			
+ header 	{	
+			display : flex ;
+			flex-flow : row wrap-reverse;
+			justify-content :center ;
+			padding-top : .25em ;
+			}			
+
+ 			
+    hgroup h1	{ 
+				margin :0 ;
+				padding : 0 ;
+				text-align : center;
+				}
+ 
+    hgroup h2  { 
+				margin : 0 ;
+				padding : 0;
+				text-align: center;
+				}
+	
+ .foto {padding-left : 1em ; }			
+
+	#fotoPedro {  	
+				height:5.5em;
+				border-radius : 1.5em ;
+				border : solid 3px #34495E  ;
+				box-shadow : 8px 8px 10px #34495E ;
+				width : 5.5em ;
+				}
+
+
+ .navegacion 	{
+				text-align : center ; 
+				margin : 0 ;
+				padding : .25em ;
+				}
+	
+	.ul1:hover {color : blue}		
+		
+	.ul1{	
+		list-style-type : none ; 	
+		display : inline-block;
+		border : solid 2px ; 
+		background-color : #C39BD3; 
+		padding-left : 1em ;
+		padding-right : 1em ;
+		padding-top : .15em ; 
+		padding-bottom : .15em ;
+		}	
+
+/* Fin del estilo del encabezado y barra de navegación */
+
+/* comienzo del estilo de la sección de datos */
+	 
+.flex-container-section-aside  { 
+								display : flex ; 
+								border-right : solid 5px ;
+								flex-flow : row wrap;
+								}
+
+ .section {	
+			background-color : #DDEEEE ;
+			flex : 88% ;
+			margin-left: 0;
+			padding-left : 3em;
+			border-left : solid 5px;
+			flex-grow : 1 ;
+			}
+
+ .exp-lab h4 {padding-left:1em ;}
+
+ .exp-lab p {padding-left: 1em;}
+			
+ .ul2 	{ 	
+		padding-bottom : .5em ;
+		display :inline-block;
+		padding-left : 10em;
+		padding-right : 10em;
+		padding-bottom :1em ;
+		}	
+		
+ .ul3 	{		
+		padding-bottom : 1em;
+		}	
+
+
+
+ aside {
+		background-color : #AABBCC ;
+		flex : 12% ;
+		flex-grow : 1 ;
+		display: flex ;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-content : center;
+		}
+		
+
+#logoInstagram {
+				height : 75px ;
+				width : 75px ;
+				border-radius : 1em;
+				}
+#logoInstagram:hover {	outline: 5px solid blue ; 
+						outline-offset: 3px;
+						opacity : .8;}	
+
+#logoTwitter 	{
+				height : 75px;
+				width : 75px;
+				border-radius : 1em;
+				}
+#logoTwitter:hover {outline : 5px solid blue ;
+					opacity : .6;
+					}
+
+#logoFacebook 	{
+				height : 75px;
+				width : 75px;
+				border-radius : 1em;
+				}
+#logoFacebook:hover { outline : 5px solid blue ;
+					opacity : .8;
+					}				
+
+/* fin del estilo de la sección de datos */
+
+/* Estilo del pie de página: */
+
+.footer {
+		border : solid 5px ;
+		text-align : center ;
+		padding-top : 0.5em ;
+		padding-bottom : .5em ;
+		display : block ;
+		background-color : #BBCCFF ;
+		}		
+
+.ul5	{	
+		list-style-type : none ;
+		text-align : center ;
+		display : inline-block ; 
+		padding-right : 4em ;
+		}
+	
+	#ul2e-mail:hover {color: blue ;}
+	
+	#ul5e-mail:hover {color: blue ;}
+	
+	#ul5-contacto:hover {color : blue ;}

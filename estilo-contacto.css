@@ -1,0 +1,31 @@
+
+body {background-color : #AABBCC }
+
+
+
+h1 	{
+	text-align : center ;
+	margin-top : 1em ;
+	}
+
+label {	font-size : 18px;}
+
+
+.input-contacto {
+				margin : .5em;
+				padding: .25em 5em ;
+				background-color : #DDEEEE ;
+				}
+
+form {text-align : center }
+
+textarea 	{ 
+			margin: .5em;
+			height: 12em;
+			width : 30em;
+			background-color : #DDEEEE ;   
+			}
+			
+.enviar { padding:0.5em 3em ;
+		  border-radius : .5em
+		;}
