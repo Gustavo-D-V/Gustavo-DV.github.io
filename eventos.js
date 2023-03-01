@@ -16,6 +16,7 @@ document.getElementById('ul1contacto').onclick = function() {
 document.getElementById('ul5-contacto').onclick = function() {
 	window.open( "form-contacto.html","Contacto")};
 
+/*Los siguientes enlaces tendrían que ir al perfil de Pedro Silva si fuera conocido*/
 
 document.getElementById('logoInstagram').onclick = function() {
 	window.open( "https://www.instagram.com/","Instagram")};	 

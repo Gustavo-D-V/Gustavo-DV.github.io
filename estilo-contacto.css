@@ -1,31 +1,36 @@
 
-body {background-color : #AABBCC }
-
-
+body 	{	
+		background-color : #AABBCC ;
+		font-family: 'Noto Serif', serif ;
+		}
 
 h1 	{
 	text-align : center ;
-	margin-top : 1em ;
+	margin-top : .5em ;
 	}
 
-label {	font-size : 18px;}
-
+label {	font-size : 18px ; }
 
 .input-contacto {
-				margin : .5em;
+				margin : .5em ;
 				padding: .25em 5em ;
 				background-color : #DDEEEE ;
+				border-radius : .5em ;
 				}
 
-form {text-align : center }
+form { text-align : center }
 
 textarea 	{ 
-			margin: .5em;
-			height: 12em;
-			width : 30em;
+			margin: .5em ;
+			height: 12em ;
+			width : 30em ;
 			background-color : #DDEEEE ;   
+			border : solid 1px ;
+			border-radius : .5em ;
 			}
 			
-.enviar { padding:0.5em 3em ;
-		  border-radius : .5em
-		;}
+.enviar { 	
+		padding:0.5em 3em ;
+	 	border-radius : .5em ;
+		font-weight :700 ;
+		}
