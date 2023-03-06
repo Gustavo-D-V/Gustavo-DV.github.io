@@ -17,8 +17,6 @@
 
 <body>
 	
-	
-	
 	<div class = "top-home">
 		
 		<header>
@@ -39,18 +37,20 @@
 				<li class = "ul1" id = "ul1datosPer"> <strong> Datos personales </strong>  </li>	
 				<li class = "ul1" id = "ul1expLab"> <strong> Experiencia laboral </strong> </li>
 				<li class = "ul1" id="ul1habilidades"> <strong> Habilidades </strong> </li> 
-				<li class = "ul1" id="ul1contacto"> <strong> Contacto </strong> </li>
+				<li class = "ul1" id="ul1contacto"> <strong> Contacto </strong> </li><br>
+				<li class="color-fondo" > <button id="fondo-oscuro" type="button" value="fondo oscuro">Fondo oscuro </button></li>
+				<li class="color-fondo">  <button id="fondo-claro" type="button" value="fondo claro">Fondo claro </button></li>
+			
 			</ul>
-	
-			<script src = eventos.js> </script>	
+				
+				
 		</nav>
 		
 	</div>	
-	
-				
-	<div class= flex-container-section-aside>	
+					
+	<div class= "flex-container-section-aside">
 		
-		<section class = "section"  >
+		<section class="seccion" <!--style="background-color : black"-->> 
 		
 			<article  class = "datos-per" >
 				<br><br><br>
@@ -64,7 +64,6 @@
 							<a href="https://goo.gl/maps/ug2EwrasHyrUQFri6" target="_blank"> mapa</a> </li>
 						<li class = "ul2" > Fecha de nacimiento: 03/06/1980 </li>
 					</ul>
-	
 			</article>
 			
 			<article class = "exp-lab" >
@@ -113,30 +112,39 @@
 			</article>
 		
 	</section>
-		
-		<aside class="aside">
-				
+	
+		<aside class="barra-lateral">
 			<div> <img id="logoInstagram" src="instagram-ico.jpg" title="Visitar Instagram de Pedro Silva" alt="link a instagram"> </div>
 			<div> <img id="logoTwitter" src="twitter-ico.png" title="Visitar Twitter de Pedro Silva" alt="link a Twitter"> </div>
 			<div> <img id="logoFacebook" src="facebook-ico.png" title="Visitar Facebook de Pedro Silva" alt="link a Facebook"> </div>
-			
 		</aside>	
-				
 		
 	</div>	
 	
 	<footer class = "footer">
-		
-		<ul>
-			<li class = "ul5" > Pedro Silva. </li>
-			<li class = "ul5" id="ul5e-mail">  e-mail: pedro.silva@gmail.com </li>
-			<li class = "ul5" id="ul5-contacto"> Contacto </li>
-		</ul>
-		
-		<script src = eventos.js> </script>
 	
+		<div class="grid-container">
+			<div class="grid-item1">
+				<ul>
+					<li class = "ul5" > Pedro Silva. </li>
+					<li class = "ul5" id="ul5e-mail">  e-mail: pedro.silva@gmail.com </li>
+					<li class = "ul5" id="ul5-contacto"> Contacto </li>
+				</ul>
+		</div>
+		
+		<div class="grid-item2"> Desarrollado por Gustavo Venturino </div>
+
+		<div class="grid-item3">
+			<img src="fotocv.jpg" height="75px"; width="80px"; style="border-radius : 5em ;" title="Gustavo Venturino";
+			alt="foto de Gustavo Venturino";/>
+		</div>
+		
+		</div>
+		
 	</footer>
 	
 </body>
+
+<script type="text/javascript" src = eventos.js> </script>
 
 </html>
